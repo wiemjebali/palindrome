@@ -1,0 +1,21 @@
+ALGORITHM palindrome
+VAR
+    var str:string
+    var i : integer
+BEGIN
+   var palindrome = true 
+    FOR i FROM 0 TO (str.length-1)/2 STEP  1 DO
+    IF (str[i]<>str[length-1-i]) THEN
+    return palindrome=false 
+        
+    END_IF
+        
+    END_FOR
+    
+    IF palindrome= true  THEN
+        ecrire("votre phrase est palindromique")
+        else 
+        ecrire ("votre phrase n'est pas palindromique")
+    END_IF
+    END.
+    
